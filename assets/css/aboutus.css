@@ -1,0 +1,84 @@
+main .swiper-container .swiper-slide img {
+    width: 100%;
+    height: 250px;
+}
+main .company-advantage,
+main .company-about {
+    background: #fff;
+}
+
+main .company-advantage .advantage-title,
+main .company-about .about-title {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main .company-advantage .advantage-title .title,
+main .company-about .about-title .title {
+    font-size: 28px;
+    color: #FF6600;
+}
+
+main .company-advantage .advantage-title .under-line,
+main .company-about .about-title .under-line {
+    width: 90px;
+    height: 1px;
+    background: #01B1AF;
+    margin: 0 auto;
+}
+
+main .company-advantage .advantage-inner {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+main .company-advantage .advantage-inner span {
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+}
+
+main .company-advantage .advantage-inner .circle-txt1 {
+    left: 102px;
+    bottom: 85px;
+}
+
+main .company-advantage .advantage-inner .circle-txt2 {
+    left: 162px;
+    top: 136px;
+}
+
+main .company-advantage .advantage-inner .circle-txt3 {
+    top: 50px;
+    left: 450px;
+}
+main .company-advantage .advantage-inner .circle-txt4 {
+	right: 194px;
+	top: 137px;    
+}
+main .company-advantage .advantage-inner .circle-txt5 {
+    bottom: 85px;
+	right: 105px;
+}
+main .company-about .about-inner {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+}
+
+main .company-about .about-inner .about-txt {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .company-about .about-inner .about-txt>p {
+    text-indent: 2em;
+    color: #666;
+}

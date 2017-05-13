@@ -1,0 +1,163 @@
+/*reset.css*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: none;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: "Microsoft YaHei", "微软雅黑", Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+figure {
+    display: block;
+}
+
+ul,
+ol,
+figure,
+form {
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+html {
+    background-image: url(./bg-tool.jpg);
+}
+a {
+    color: #eee;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+}
+.inline-block{
+    display: inline-block;
+}
+.text-grey{
+    color: #9B9B9B;
+}
+.text-brown{
+    color: #FF9900;
+}
+/*头部样式*/
+.page-wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    height: 120px;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+header>div {
+    display: inline-block;
+}
+
+header .company-info {
+    float: left;
+}
+
+header .company-info img {
+    width: 90px;
+    height: 90px;
+}
+
+header .company-info .company-name {
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+header .company-contact {
+    float: right;
+}
+
+header .company-contact .icon-tel {
+    vertical-align: text-bottom;
+}
+header .company-contact .contact-inner {
+    margin: 10px;
+}
+
+header .company-contact .contact-inner p {
+    margin: 5px 0;
+}
+/*菜单栏样式*/
+.page-menu {
+    width: 100%;
+    background: #000;
+}
+
+.page-menu .menu-list {
+    width: 1000px;
+    margin: 0 auto;
+}
+.page-menu .menu-list .list-item {
+    display: inline-block;
+    width: 130px;
+    height: 56px;
+    text-align: center;
+    line-height: 56px;
+    font-size: 20px;
+}
+
+.page-menu .menu-list .list-item.selected {
+    background: #FF6600;
+}
+
+.page-menu .menu-list .list-item:hover {
+    background: #FF6600;
+}
+
+/*脚部样式*/
+footer {
+    background: #222325;
+    height: 100px;
+    padding: 20px;
+}
+
+footer .footer-inner {
+    height: 60px;
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .footer-inner .item img {
+    vertical-align: bottom;
+}
+
+footer .footer-inner .item-txt {
+    display: inline-block;
+    color: #787576;
+}
+
+footer .footer-inner .item-txt p {
+    margin: 5px;
+}
