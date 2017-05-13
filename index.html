@@ -1,0 +1,64 @@
+---
+---
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>boketoy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="icon" href="favicon.png" type="image/x-icon" />
+<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+<style type="text/css">
+*{-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; -webkit-text-size-adjust: none;}
+
+html,body{height: 100%; margin: 0; padding: 0; border: 0;}
+body{font-family:"Microsoft YaHei","微软雅黑",Arial,Helvetica,sans-serif; align-items: center; justify-content: center;}
+figure{display: block;}
+
+ul,ol,figure,form{margin: 0; padding: 0;}
+img{border: 0; vertical-align: middle;}
+
+html{background-image: url(./bg-tool.jpg);}
+#page{display: -webkit-flex; display: flex; background-color: rgba(85,85,85,0.6); color: #eee; min-height: 100%;
+	-webkit-transition: background-color ease 5s;
+	-moz-transition: background-color ease 5s;
+	-ms-transition: background-color ease 5s;
+	transition: background-color ease 5s;
+}
+a{color: #eee; text-decoration: none;}
+a:hover{color: #fff; text-decoration: underline;}
+
+</style>
+</head>
+
+<body class="page-type-index">
+<div id="page">
+</div>
+
+<script>
+	var page = document.querySelector("#page");
+</script>
+
+<script>
+
+	var urlPc = "http://www.sobot.com/chat/pc/pc.min.js?sysNum=eb8f4828ce9c4f208881ad6a1cb5ad04";
+
+	var urlH5 = "http://www.sobot.com/chat/h5/h5.min.js?sysNum=eb8f4828ce9c4f208881ad6a1cb5ad04" ;
+
+	var id = "zhichiload";
+
+	var script = document.createElement("script");
+	var body = document.getElementsByTagName("body")[0];
+
+	if(navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i)){
+		script.setAttribute("src",urlH5);
+		script.setAttribute("id",id);
+		body.appendChild(script);
+	}else{
+		script.setAttribute("src",urlPc);
+		script.setAttribute("id",id);
+		body.appendChild(script);
+	}
+</script>
+</body>
+</html>
