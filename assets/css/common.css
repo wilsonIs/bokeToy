@@ -1,4 +1,5 @@
 /*reset.css*/
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -32,7 +33,7 @@ form {
     padding: 0;
 }
 
-li{
+li {
     list-style: none;
 }
 
@@ -44,6 +45,7 @@ img {
 html {
     background-image: url(./bg-tool.jpg);
 }
+
 a {
     color: #eee;
     text-decoration: none;
@@ -52,16 +54,22 @@ a {
 a:hover {
     color: #fff;
 }
-.inline-block{
+
+.inline-block {
     display: inline-block;
 }
-.text-grey{
+
+.text-grey {
     color: #9B9B9B;
 }
-.text-brown{
+
+.text-brown {
     color: #FF9900;
 }
+
+
 /*头部样式*/
+
 .page-wrapper {
     width: 100%;
     margin: 0 auto;
@@ -100,6 +108,7 @@ header .company-contact {
 header .company-contact .icon-tel {
     vertical-align: text-bottom;
 }
+
 header .company-contact .contact-inner {
     margin: 10px;
 }
@@ -107,7 +116,10 @@ header .company-contact .contact-inner {
 header .company-contact .contact-inner p {
     margin: 5px 0;
 }
+
+
 /*菜单栏样式*/
+
 .page-menu {
     width: 100%;
     background: #000;
@@ -117,6 +129,7 @@ header .company-contact .contact-inner p {
     width: 1000px;
     margin: 0 auto;
 }
+
 .page-menu .menu-list .list-item {
     display: inline-block;
     width: 130px;
@@ -124,6 +137,11 @@ header .company-contact .contact-inner p {
     text-align: center;
     line-height: 56px;
     font-size: 20px;
+}
+
+.page-menu .menu-list .list-item a {
+    display: inline-block;
+    width: 100%;
 }
 
 .page-menu .menu-list .list-item.selected {
@@ -134,7 +152,9 @@ header .company-contact .contact-inner p {
     background: #FF6600;
 }
 
+
 /*脚部样式*/
+
 footer {
     background: #222325;
     height: 100px;
