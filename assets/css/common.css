@@ -42,10 +42,6 @@ img {
     vertical-align: middle;
 }
 
-html {
-    background-image: url(./bg-tool.jpg);
-}
-
 a {
     color: #eee;
     text-decoration: none;
