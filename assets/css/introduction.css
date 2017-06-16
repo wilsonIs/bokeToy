@@ -7,6 +7,7 @@ main .productions{
 	width: 1050px;
 }
 main .productions .production-list{
+	padding: 20px;
 	display: flex;
 	justify-content: space-around;
 }

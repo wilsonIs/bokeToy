@@ -41,7 +41,7 @@ main .company-advantage .advantage-inner {
     margin-bottom: 50px;
     position: relative;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-top: 40px;
 }
 
