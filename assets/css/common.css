@@ -176,3 +176,43 @@ footer .footer-inner .item-txt {
 footer .footer-inner .item-txt p {
     margin: 5px;
 }
+
+
+@media (max-width:450px) {
+    body{
+        overflow-x: hidden;
+    }
+    header,footer{
+        width: 100%;
+        height: auto;
+    }
+    header .company-info,
+    header .company-contact{
+        float: none;
+    }
+    footer .footer-inner{
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+    }
+    .page-menu .menu-list{
+        width: 100%;
+        display: flex;
+    }
+    #zhichiBtnBox{
+        right: 15px!important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

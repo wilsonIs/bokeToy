@@ -1,4 +1,29 @@
 /*主体部分样式*/
+@media (max-width:450px) {
+    main .company-advantage,
+    main .company-about,
+    main .company-advantage>div,
+    main .company-about>div,
+    main .company-advantage .advantage-inner img,
+    main .company-confidence .confidence-wrapper{
+        width: 100%!important;
+    }
+    main .company-advantage .advantage-inner{
+        margin: 0!important;
+        padding:15px;
+    }
+    main .confidence-wrapper .confidence-title{
+        width: auto!important;
+    }
+    main .company-about .about-inner{
+        flex-direction: column;
+    }
+    main .company-about .about-inner .about-txt{
+        margin-left: 0!important;
+        padding:10px;
+    }
+
+}
 main .swiper-container .swiper-slide img {
     width: 100%;
 }
@@ -33,7 +58,7 @@ main .company-advantage .advantage-inner {
     width: 1000px;
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 50px;
+    margin: 40px;
     position: relative;
 }
 
@@ -43,28 +68,6 @@ main .company-advantage .advantage-inner span {
     position: absolute;
 }
 
-main .company-advantage .advantage-inner .circle-txt1 {
-    left: 102px;
-    bottom: 85px;
-}
-
-main .company-advantage .advantage-inner .circle-txt2 {
-    left: 162px;
-    top: 136px;
-}
-
-main .company-advantage .advantage-inner .circle-txt3 {
-    top: 50px;
-    left: 450px;
-}
-main .company-advantage .advantage-inner .circle-txt4 {
-	right: 194px;
-	top: 137px;    
-}
-main .company-advantage .advantage-inner .circle-txt5 {
-    bottom: 85px;
-	right: 105px;
-}
 main .company-confidence {
     background: #009B97;
 }
