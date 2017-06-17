@@ -1,0 +1,21 @@
+main .swiper-container .swiper-slide img {
+    width: 100%;
+    height: 250px;
+}
+main .productions{
+	margin: 20px auto;
+	width: 1050px;
+}
+main .productions .production-list{
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+main .productions .production-list .list-item{
+	width: 48%;
+	height: 700px;
+}
+main .productions .production-list .list-item img{
+	width: 100%;
+	height: 100%;
+}
