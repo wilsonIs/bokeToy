@@ -190,10 +190,16 @@ footer .footer-inner .item-txt p {
     header .company-contact{
         float: none;
     }
+    header .company-contact{
+        display: none;
+    }
     footer .footer-inner{
         width: 100%;
         flex-direction: column;
         height: auto;
+    }
+    footer .footer-inner .item-txt p{
+        font-size: 15px;
     }
     .page-menu .menu-list{
         width: 100%;
