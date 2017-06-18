@@ -51,31 +51,6 @@ main .company-advantage .advantage-inner span {
     position: absolute;
 }
 
-main .company-advantage .advantage-inner .circle-txt1 {
-    left: 102px;
-    bottom: 85px;
-}
-
-main .company-advantage .advantage-inner .circle-txt2 {
-    left: 162px;
-    top: 136px;
-}
-
-main .company-advantage .advantage-inner .circle-txt3 {
-    top: 50px;
-    left: 450px;
-}
-
-main .company-advantage .advantage-inner .circle-txt4 {
-    right: 194px;
-    top: 137px;
-}
-
-main .company-advantage .advantage-inner .circle-txt5 {
-    bottom: 85px;
-    right: 105px;
-}
-
 main .company-about .about-inner {
     width: 1000px;
     margin: 0 auto;
@@ -94,3 +69,40 @@ main .company-about .about-inner .about-txt>p {
     text-indent: 2em;
     color: #666;
 }
+
+main .company-licence{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+main .company-licence p{
+    color: #09aeb0;
+    font-size: 28px;
+}
+@media (max-width:450px) {
+    main .company-advantage .advantage-title,
+    main .company-advantage .advantage-inner,
+    main .company-about .about-title,
+    main .company-about .about-inner{
+        width: 100%;
+    }
+    main .swiper-container .swiper-slide img {
+        width: auto;
+        height: 10rem;
+    }
+    main .company-about .about-inner{
+        flex-direction: column;
+    }
+    main .company-about .about-inner img{
+        width: 100%;
+    }
+    main .company-about .about-inner .about-txt{
+        margin-left: 0;
+        padding:10px;
+    }
+    main .company-licence img{
+        width: 100%;
+    }
+
+}
+

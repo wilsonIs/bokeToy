@@ -1,36 +1,4 @@
 /*主体部分样式*/
-@media (max-width:450px) {
-    main .company-advantage,
-    main .company-about,
-    main .company-advantage>div,
-    main .company-about>div,
-    main .company-advantage .advantage-inner img,
-    main .company-confidence .confidence-wrapper{
-        width: 100%!important;
-    }
-    main .swiper-container .swiper-slide img{
-        height: 10rem;
-    }
-    main .company-advantage .advantage-inner{
-        margin: 0!important;
-        padding:15px;
-    }
-    main .confidence-wrapper .confidence-title{
-        width: auto!important;
-        font-size: 15px!important;
-    }
-    main .company-about .about-inner{
-        flex-direction: column;
-    }
-    main .company-about .about-inner .about-img img{
-        width: 100%;
-    }
-    main .company-about .about-inner .about-txt{
-        margin-left: 0!important;
-        padding:10px;
-    }
-
-}
 main .swiper-container .swiper-slide img {
     width: 100%;
 }
@@ -135,4 +103,38 @@ main .company-about .about-inner .about-txt {
 main .company-about .about-inner .about-txt>p {
     text-indent: 2em;
     color: #666;
+}
+
+
+@media (max-width:450px) {
+    main .company-advantage,
+    main .company-about,
+    main .company-advantage>div,
+    main .company-about>div,
+    main .company-advantage .advantage-inner img,
+    main .company-confidence .confidence-wrapper{
+        width: 100%!important;
+    }
+    main .swiper-container .swiper-slide img{
+        height: 10rem;
+    }
+    main .company-advantage .advantage-inner{
+        margin: 0!important;
+        padding:15px;
+    }
+    main .confidence-wrapper .confidence-title{
+        width: auto!important;
+        font-size: 15px!important;
+    }
+    main .company-about .about-inner{
+        flex-direction: column;
+    }
+    main .company-about .about-inner .about-img img{
+        width: 100%;
+    }
+    main .company-about .about-inner .about-txt{
+        margin-left: 0!important;
+        padding:10px;
+    }
+
 }

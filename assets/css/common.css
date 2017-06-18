@@ -13,6 +13,7 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
+    background: #fff;
 }
 
 body {
@@ -207,6 +208,7 @@ footer .footer-inner .item-txt p {
     }
     #zhichiBtnBox{
         right: 15px!important;
+        bottom: 45px!important;
     }
 }
 

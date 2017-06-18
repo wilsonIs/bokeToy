@@ -20,3 +20,13 @@ main .productions .production-list .list-item .item-introduce{
 	text-align: center;
 	font-size: 24px;
 }
+
+@media (max-width:450px) {
+	main .productions{
+		width: 100%;
+	}
+	main .swiper-container .swiper-slide img {
+	    width: auto;
+	    height: 5.5rem;
+	}
+}
